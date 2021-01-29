@@ -2,11 +2,6 @@
 __pycache__
 **/__pycache__
 **/tensorboard*
-**/csv*
-**/*.csv
-**/*.png
-
-
 
 
 # Created by https://www.gitignore.io/api/linux,macos,windows,eclipse,pycharm+all,intellij+all
