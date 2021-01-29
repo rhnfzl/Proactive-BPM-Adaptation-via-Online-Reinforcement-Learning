@@ -10,7 +10,7 @@ import time
 BaseEnv.show_graphs = False
 steps = 250000
 
-for _ in range(4):
+for _ in range(3):
     ppo2_parameter_environment.run(env_string="gym_threshold:master-state-master-reward-v0", learning_steps=steps,
                                    gamma=1, tensorboard_log=None)
     time.sleep(10)
