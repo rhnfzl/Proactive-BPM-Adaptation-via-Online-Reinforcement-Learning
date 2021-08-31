@@ -1,11 +1,10 @@
 # Proactive-BPM-Adaptation-via-Online-Reinforcement-Learning
 
-The repository goes step by step process to recreate the Experiment of [Triggering Proactive Business Process Adaptations via Online Reinforcement Learning](https://doi.org/10.1007/978-3-030-58666-9_16).
+The repository goes step by step process to recreate the Experiment of [Triggering Proactive Business Process Adaptations via Online Reinforcement Learning](https://doi.org/10.1007/978-3-030-58666-9_16) paper.
 
+To recreate the experiments, you need to use docker and that will lead not to install any of the requirements on your machine.
 
-[embed]https://www.dropbox.com/s/hlccrw7t9gzlpzn/Proactive-BPM-Adaptation-via-Online-Reinforcement-Learning_Experiment-Report.pdf[embed]
-
-To recreate the experiments, you can use docker and not have to install any of the requirements on your machine.
+The report realted to the experiment and understanding of the paper can be found here [Experiment Report on Proactive-BPM-Adaptation-via-Online-Reinforcement-Learning](https://www.dropbox.com/s/hlccrw7t9gzlpzn/Proactive-BPM-Adaptation-via-Online-Reinforcement-Learning_Experiment-Report.pdf?dl=1)
 
 Setup the docker in your machine, clone the repository and replace models-bpic, models-bpic17, models-traffic with the file from https://uni-duisburg-essen.sciebo.de/s/iFy6y0BsAWTgWLV?path=%2F. The CSV file for each model is too large to be pushed to Git, those will be used during RL execution. Once the files are updated, Run the "00_docker_builder" scripts. The script will build two docker images for you, named "threshold-python" and "threshold-java". Within the root of this repository, execute the "docker-compose up" command, to run both images.
 
